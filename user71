@@ -1,2 +1,7 @@
 git config --global user.name "PowerRanger77"
 git config --global user.email "jeff.shen@dell.com"
+git init
+git remote add origin git@github.com:PowerRanger77/cloud-native-labs.git
+git add . --all
+git commit -m "initial add"
+git push -u origin master
